@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+}
+
+.header .top-bar .logo {
+  position: absolute;
+  width: 200px;
+  top: 5px;
+  left: 5px;
+}
+
+.header .top-bar .wrapper {
+  text-align: center;
+}
+
+.header .top-bar .wrapper .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header .top-bar .wrapper .sub-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.header .subjects {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* small screens */
+@media (max-width: 767px) {
+  .header .top-bar .logo {
+    width: 100px;
+    top: 0;
+    left: 0;
+  }
+  .header .top-bar .wrapper {
+    margin-left: 120px;
+    text-align: left;
+  }
+  .header .subjects {
+    margin-top: 20px;
+  }
+}

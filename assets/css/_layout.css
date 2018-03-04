@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255,204,153);
+  font-family: Garamond, Georgia, serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.content {
+  padding: 1em;
+}
+
+.content .meet-tutor {
+  margin: 10px 0;
+}
+
+.content .meet-tutor img {
+  float: left;
+  padding-right: 1em;
+}
+
+.content .meet-tutor:nth-child(odd) img {
+  float: right;
+  padding-right: 0;
+  padding-left: 1em;
+}
+
+.content .meet-tutor p {
+  text-align: justify;
+}
+
+.content .meet-tutor::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+
+.content .contacts {
+  text-align: center;
+}
+
+/* intermediate screens and above */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+/* desktop screens and above */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large screens */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
