@@ -6,7 +6,7 @@
 	function parse_query_string($query_string)
 	{
 		$args = Array();
-		$pos = strpos($query_string, '&');
+		$pos = strpos($query_string, '/');
 		if( $pos === false )
 		{
 			$action = $query_string;
@@ -40,7 +40,7 @@
 					$key = substr($part, 0, $pos);
 					$val = substr($part, $pos+1);
 				}
-				$args[] = Array('key' => $key, 'value' => $val);
+				$args[$key] = $val;
 			}
 		}
 		return Array('action' => $action, 'args' => $args);

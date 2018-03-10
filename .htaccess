@@ -1,0 +1,16 @@
+# NOTE: Make sure to remove "AllowOverride None" from the directive <Directory ".../www/">
+<IfModule mod_rewrite.c>
+
+ 	RewriteEngine On
+	# RewriteBase /abbysylvia/
+	
+	# Protect private files
+	RewriteRule /?\.htaccess$ - [F,L]
+	RewriteRule ^\.gitignore$ - [F,L]
+	RewriteRule ^\.git - [F,L]
+	
+ 	RewriteCond %{REQUEST_FILENAME} !-f
+ 	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^assets/css/bundle\.css  index.php?css_bundle/ [L,QSA]
+	
+</IfModule>

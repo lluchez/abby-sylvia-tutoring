@@ -33,17 +33,16 @@ abstract class AbstractLoader
 		{
 			$asset = $path.$file.$ext;
 			$minified = $path.$file.$mini;
-			$generated = $path.$file.$ext.".php";
 			$asset_exists = file_exists($asset);
 			$minified_exists = file_exists($minified);
-			$generated_exists = file_exists($generated);
+			$generated_exists = file_exists($path.$file.".php");
 			$resource_path = null;
 			if( IS_PROD && $minified_exists && (!$asset_exists || filemtime($minified)>=filemtime($asset)) )
 				$resource_path = $minified;
 			elseif( $minified_exists )
 				$resource_path = $minified;
 			elseif( $generated_exists )
-				$resource_path = $generated;
+				$resource_path = $asset; // uses the general path anyway
 			elseif( $asset_exists )
 				$resource_path = $asset;
 
