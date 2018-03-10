@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
 	<title>Abby and Sylvia - Tutoring</title>
-	<!-- <link rel="SHORTCUT ICON" href="<?php ?>"/> -->
+	<link rel="SHORTCUT ICON" href="<?php echo DIR_IMG.'favicon.png'; ?>"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -42,7 +42,7 @@
 					<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
 				</div>
 				<div class="meet-tutor meet-sylvia">
-				<img src="<?php echo DIR_IMG ?>tutors/sylvia.jpg" title="Sylvia Luchez" />
+					<img src="<?php echo DIR_IMG ?>tutors/sylvia-luchez.jpg" title="Sylvia Luchez" />
 					<p><strong>Sylvia Luchez</strong> studied at the University of Chicago, where she obtained her B.A. in English Language and Literature with a minor in Visual Arts. She holds an M.Ed. in Secondary Visual Arts Education and is licensed to teach art at the high school level and English Language Arts at the middle school level. Sylvia taught K-8 art and language arts at Chicago Grammar School in Chicago for 5 years. She student taught Visual Arts at Oak Park and River Forest High School.</p>
 					<p>Sylvia believes that art can be a powerful way of helping students to understand academic concepts and develop social-emotional skills. She loves working with students one-on- one and catering lessons to students’ interests and needs, so that students can walk away from each tutoring session having engaged with the material and learned it deeply. Sylvia also works to find academic strategies that will help students to stay organized with their materials and interpret content knowledge they receive at school, so they can retain this knowledge and be able to apply it to diverse situations.</p>
 				</div>
