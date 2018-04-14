@@ -38,8 +38,7 @@
 				<h1>Meet Abby &amp; Sylvia</h1>
 				<div class="meet-tutor meet-abby">
 					<img src="<?php echo DIR_IMG ?>tutors/abby.jpg" title="Abby Green" />
-					<p><strong>Abby Green</strong> ipsum lorem dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
-					<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+					<p><strong>Abby Green</strong> studied Speech-Language Pathology at Indiana University and holds a master's degree in Elementary Education from Loyola University Chicago.  As a first grade teacher at Chicago Grammar School, she provides young students with a productive learning environment and helps them to develop independence, academic skills, and confidence. She is a creative, committed, and reflective teacher. Abby looks at each student individually in order to meet his or her needs and academic goals. She uses Singapore Math and The Wilson Reading Program to design curriculum and works to help students make connections across subjects in order to enhance their learning and engagement in academic material.</p>
 				</div>
 				<div class="meet-tutor meet-sylvia">
 					<img src="<?php echo DIR_IMG ?>tutors/sylvia-luchez.jpg" title="Sylvia Luchez" />
